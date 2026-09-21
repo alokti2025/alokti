@@ -12,11 +12,12 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { href: "#services", label: "Services" },
-    { href: "#why-us", label: "Why Us" },
-    { href: "#portfolio", label: "Portfolio" },
-    { href: "#testimonials", label: "Testimonials" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#services", label: "Services" },
+    { href: "/#why-us", label: "Why Us" },
+    { href: "/#portfolio", label: "Portfolio" },
+    { href: "/#testimonials", label: "Testimonials" },
+    { href: "/career", label: "Career" },
+    { href: "/#contact", label: "Contact" },
   ];
 
   const socialLinks = [

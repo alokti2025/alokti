@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 
 export default function HeroSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,10 +15,6 @@ export default function HeroSection() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
-  // WhatsApp link
-  const whatsappLink =
-    "https://wa.me/6370787125?text=Hello%20Alokti%20Software,%20I%20am%20interested%20in%20your%20services.";
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -66,18 +61,7 @@ export default function HeroSection() {
           </p>
 
           {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <Button
-              size="lg"
-              className="px-7 py-3 rounded-xl bg-gradient-to-r from-[#00338D] to-[#6E2BD9] text-white font-semibold shadow-lg hover:opacity-90 flex items-center gap-2"
-              asChild
-            >
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                Talk to Experts
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
-            </Button>
-
+          <div className="mb-10">
             <Button
               size="lg"
               variant="outline"

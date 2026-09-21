@@ -13,11 +13,12 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { href: "#services", label: "Services" },
-    { href: "#why-us", label: "Why Us" },
-    { href: "#portfolio", label: "Portfolio" },
-    { href: "#testimonials", label: "Testimonials" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#services", label: "Services" },
+    { href: "/#why-us", label: "Why Us" },
+    { href: "/#portfolio", label: "Portfolio" },
+    { href: "/#testimonials", label: "Testimonials" },
+    { href: "/career", label: "Career" },
+    { href: "/#contact", label: "Contact" },
   ];
 
   const whatsappLink =
@@ -33,7 +34,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3">
+        <a href="/" className="flex items-center gap-3">
           <img
             src="/Logo.png"
             alt="Alokti logo"
